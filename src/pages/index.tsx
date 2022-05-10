@@ -5,7 +5,7 @@ import React from 'react';
 function IndexPage() {
   return (
     // eslint-disable-next-line react/jsx-filename-extension
-    <main style={pageStyles}>
+    <main>
       Hello, Sirus!
     </main>
   );
