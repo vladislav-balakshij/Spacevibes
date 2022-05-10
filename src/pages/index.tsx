@@ -1,5 +1,5 @@
-import * as React from 'react';
-import '../styles/basic.scss';
+// eslint-disable-next-line no-use-before-define
+import React from 'react';
 // styles
 const pageStyles = {
   color: '#232129',

@@ -20,6 +20,7 @@
     "gatsby": "^4.13.1",
     "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-image": "^2.13.0",
+    "gatsby-plugin-prettier-eslint": "^1.0.6",
     "gatsby-plugin-sharp": "^4.13.0",
     "gatsby-plugin-styled-components": "^5.13.0",
     "gatsby-source-contentful": "^7.11.0",
