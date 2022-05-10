@@ -3,6 +3,9 @@ module.exports = {
     browser: true,
     es2021: true,
   },
+  globals: {
+    __PATH_PREFIX__: true,
+  },
   extends: [
     'plugin:react/recommended',
     'airbnb',

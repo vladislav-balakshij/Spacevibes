@@ -17,13 +17,22 @@ const config: GatsbyConfig = {
     options: {
       alias: {
         '@components': 'src/views/components',
+        '@layouts': 'src/views/layouts',
       },
       extensions: [
         'tsx',
       ],
     },
   },
-  'gatsby-plugin-styled-components', 'gatsby-plugin-image'],
+  'gatsby-plugin-styled-components',
+  'gatsby-plugin-image',
+  {
+    resolve: 'gatsby-plugin-sass',
+    options: {
+      useResolveUrlLoader: true,
+    },
+  }
+  ],
 };
 
 export default config;
