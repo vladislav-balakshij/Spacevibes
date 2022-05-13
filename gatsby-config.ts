@@ -5,7 +5,8 @@ const config: GatsbyConfig = {
     title: 'Spacevibes',
     siteUrl: 'https://www.yourdomain.tld',
   },
-  plugins: [{
+  plugins: [
+    {
     resolve: 'gatsby-source-contentful',
     options: {
       accessToken: 'pUfWMZXuoLj6eQN_NkjT0GwiAJ5GlBAR1FVcWFSr1nY',
@@ -24,7 +25,6 @@ const config: GatsbyConfig = {
       ],
     },
   },
-  'gatsby-plugin-styled-components',
   'gatsby-plugin-image',
   {
     resolve: 'gatsby-plugin-sass',

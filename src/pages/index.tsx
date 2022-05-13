@@ -1,7 +1,7 @@
 import React from 'react';
 // @ts-ignore
 import MainLayout from '@layouts/mainLayout';
-import Heading from "../views/elements/typography";
+import {Heading, Overline} from "../views/elements/typography";
 
 const IndexPage = () => {
   return (
@@ -11,6 +11,8 @@ const IndexPage = () => {
       <Heading level={3}>H3 I design better digital products to help my clients build better customer experiences.</Heading>
       <Heading level={4}>H4 I design better digital products to help my clients build better customer experiences.</Heading>
       <Heading level={5}>h5 I design better digital products to help my clients build better customer experiences.</Heading>
+      <Overline>Toronto based. Human-centric designs.</Overline>
+      <p>I work with financial institutions, government ministries, and health industry to conceptualize and design custom digital products, websites and apps.</p>
     </MainLayout>
   );
 }

@@ -1,3 +1,3 @@
-import typography from "./typography";
+import { Heading, Overline } from "./typography";
 
-export default typography
+export { Heading, Overline }
