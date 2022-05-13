@@ -1,11 +1,15 @@
 import React from 'react';
 import '../../styles/basic.scss'
+import Header from "../components/Header/header";
 
-function MainLayout({ children } : any) {
+function MainLayout({ children }: any) {
   return (
-    <main>
-      {children}
-    </main>
+    <>
+      <Header />
+      <main>
+        {children}
+      </main>
+    </>
   );
 }
 
