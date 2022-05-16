@@ -1,7 +1,7 @@
 .footer {
   background: url('./blackBg.png') 50% 50%;
   height: 90rem;
-  color: #fff;
+  color: var(--white-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,8 +32,9 @@
       align-items: center;
       justify-content: space-between;
       text-decoration: none;
-      font-weight: 600;
-      svg{
+      font-weight: 300;
+
+      svg {
         margin-left: 1.8rem;
       }
     }
@@ -42,7 +43,8 @@
   a {
     color: #fff;
   }
-  .copy{
+
+  .copy {
     font-size: 1.2rem;
     color: #858585;
   }
