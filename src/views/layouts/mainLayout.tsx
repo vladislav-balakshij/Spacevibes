@@ -3,7 +3,7 @@ import '../../styles/basic.scss'
 import Header from "../components/Header/header";
 import Footer from "../components/Footer/footer";
 
-function MainLayout({ children }: any) {
+const MainLayout = ({ children }: any) => {
   return (
     <>
       <Header />
@@ -15,4 +15,8 @@ function MainLayout({ children }: any) {
   );
 }
 
-export default MainLayout;
+const Wrapper = ({ children }: any) => {
+  return (<div className='wrapper'>{children}</div>)
+}
+
+export { MainLayout, Wrapper };

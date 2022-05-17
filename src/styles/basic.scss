@@ -13,9 +13,15 @@ html {
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'Proxima Nova';
   font-size: 2.6rem;
   font-weight: 300;
   background: #fff;
+}
+
+.wrapper {
+  width: 970px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
