@@ -15,8 +15,4 @@ const MainLayout = ({ children }: any) => {
   );
 }
 
-const Wrapper = ({ children }: any) => {
-  return (<div className='wrapper'>{children}</div>)
-}
-
-export { MainLayout, Wrapper };
+export { MainLayout };
