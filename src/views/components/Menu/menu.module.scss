@@ -1,0 +1,18 @@
+.overlay {
+  background: #c4c4c43d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+.menu {
+  position: fixed;
+  width: 620px;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  box-shadow: -5px 0px 22px rgba(0, 0, 0, 0.15);
+}

@@ -15,8 +15,8 @@ const IndexPage = () => {
       <TwoColorsTitle first={'featured'} second={'projects'} />
       <h2>H2 I design better digital products to help my clients build better customer experiences.</h2>
       <h3>H3 I design better digital products to help my clients build better customer experiences.</h3>
-      <h4>H4 I design better digital products to help my clients build better customer experiences.</h4>
-      <h5>h5 I design better digital products to help my clients build better customer experiences.</h5>
+      <h4>Canada’s leading pharmaceutical brand</h4>
+      <h5>Mckesson Canada</h5>
     </MainLayout>
   );
 }
