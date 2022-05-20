@@ -9,19 +9,71 @@
 
 .menu {
   position: fixed;
-  width: 620px;
+  width: 62rem;
   height: 100%;
   right: 0;
   top: 0;
-  background: #FFFFFF;
   box-shadow: -5px 0px 22px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "network linksList linksList"
+  "footer footer footer";
+}
+
+.networks {
+  grid-area: network;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+
+  a {
+    margin: 1.25rem 0;
+    line-height: 0;
+  }
 }
 
 .list {
+  grid-area: linksList;
   font-size: 4.5rem;
+  list-style: none;
 
   a {
     color: #22262C;
     text-decoration: none;
   }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  grid-area: footer;
+  font-size: 1.8rem;
+  color: #858585;
+  div{
+
+  }
+  a {
+    font-size: 2rem;
+    color: #000;
+  }
+}
+
+.closeButton {
+  position: absolute;
+  background: none;
+  cursor: pointer;
+  top: 2rem;
+  right: 2rem;
+  margin: 7rem 6rem 0 0;
 }
