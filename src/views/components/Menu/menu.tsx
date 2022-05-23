@@ -24,7 +24,6 @@ const Menu = () => {
         </button>
         <div className={styles.grid}>
 
-
           <div className={styles.networks}>
             <a href="#">
               <IconDribble />
