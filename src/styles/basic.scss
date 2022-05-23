@@ -14,13 +14,14 @@ html {
 }
 
 body {
+  background: var(--white-color);
   font-family: var(--font-family);
   font-size: 2.6rem;
   font-weight: 300;
-  background: #fff;
 }
 
 .wrapper {
   max-width: 114rem;
   padding: 0 1.5rem;
+  margin: 0 auto;
 }
