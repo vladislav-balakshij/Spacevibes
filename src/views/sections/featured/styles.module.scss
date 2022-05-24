@@ -1,0 +1,50 @@
+.FeaturedProjectsSection {
+  display: grid;
+  height: 2000px;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 10fr 1fr;
+  grid-template-areas:
+  "header header"
+  "projects images"
+  "footer footer";
+
+  & > div {
+    width: 100%;
+  }
+  .title{
+    & > div {
+      color: #858585;
+    }
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  .projectList {
+    grid-area: projects;
+  }
+
+  .project {
+
+  }
+
+  .images {
+    grid-area: images;
+  }
+
+  .imageWrapper {
+    position: sticky;
+    top: calc(50vh - 39rem);
+    width: 55rem;
+    height: 78rem;
+    overflow: hidden;
+    border-radius: 2.4rem;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+
+}
