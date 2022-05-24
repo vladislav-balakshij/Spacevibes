@@ -1,6 +1,5 @@
 .FeaturedProjectsSection {
   display: grid;
-  height: 2000px;
   grid-gap: 1rem;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 10fr 1fr;
@@ -12,7 +11,8 @@
   & > div {
     width: 100%;
   }
-  .title{
+
+  .title {
     & > div {
       color: #858585;
     }
@@ -27,7 +27,19 @@
   }
 
   .project {
+    height: 78rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    h4 {
+      margin: 2.5rem 0;
+    }
+
+    p {
+      font-size: 16px;
+      color: #858585;
+    }
   }
 
   .images {
@@ -45,6 +57,9 @@
 
   footer {
     grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 }

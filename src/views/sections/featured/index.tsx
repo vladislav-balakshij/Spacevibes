@@ -17,19 +17,19 @@ const FeaturedProjectsSection = () => {
           <article className={styles.project}>
             <h5>Mckesson Canada</h5>
             <h4>Canada’s leading pharmaceutical brand</h4>
-            <div>web application, user interface, design, ux</div>
+            <p>web application, user interface, design, ux</p>
           </article>
 
           <article className={styles.project}>
             <h5>Mckesson Canada</h5>
             <h4>Canada’s leading pharmaceutical brand</h4>
-            <div>web application, user interface, design, ux</div>
+            <p>web application, user interface, design, ux</p>
           </article>
 
           <article className={styles.project}>
             <h5>Mckesson Canada</h5>
             <h4>Canada’s leading pharmaceutical brand</h4>
-            <div>web application, user interface, design, ux</div>
+            <p>web application, user interface, design, ux</p>
           </article>
         </section>
         <section className={styles.images}>
