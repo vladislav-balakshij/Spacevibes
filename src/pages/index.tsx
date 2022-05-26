@@ -1,16 +1,41 @@
 import React from 'react';
 // @ts-ignore
 import { MainLayout } from '@layouts/mainLayout';
-import Button from "../views/elements/buttons/buttons";
-import TwoColorsTitle from "../views/elements/twoColorsTitle/twoColorsTitle";
+
 import HeroSection from "../views/sections/hero";
 import FeaturedProjectsSection from "../views/sections/featured";
+import PostsSection from "../views/sections/posts";
 
+const posts = [
+  {
+    id: 1,
+    img: 'img',
+    title: 'Collector Pumpkin Festival cancelled indefinitely',
+    url: 'http://localhost:8080'
+  },
+  {
+    id: 2,
+    img: 'img',
+    title: 'Collector Pumpkin Festival cancelled indefinitely',
+    url: 'http://localhost:8080'
+  },
+  {
+    id: 3,
+    img: 'img',
+    title: 'Collector Pumpkin Festival cancelled indefinitely',
+    url: 'http://localhost:8080'
+  }
+]
 const IndexPage = () => {
   return (
     <MainLayout>
       <HeroSection />
       <FeaturedProjectsSection />
+      <PostsSection
+        title="Insights & Resources"
+        description="I regularly  publish articles and tutorials on design principles, UI UX design tools and industry best practices "
+        posts={posts}
+      />
 
 
       {/*<h2>H2 I design better digital products to help my clients build better customer experiences.</h2>*/}
