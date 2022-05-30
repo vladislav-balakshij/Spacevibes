@@ -1,0 +1,39 @@
+.sliderSection {
+
+}
+
+.slides {
+
+}
+
+.slide {
+  width: 32.5rem;
+
+  img {
+    border-radius: 1.6rem;
+    width: 32.5rem;
+    height: 26rem;
+  }
+
+  svg {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+
+  a {
+    font-size: 1.8rem;
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 36px;
+
+  a {
+    margin-left: 1.6rem;
+  }
+}
