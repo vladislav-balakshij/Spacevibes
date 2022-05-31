@@ -27,26 +27,28 @@ const posts = [
     url: 'http://localhost:8080'
   }
 ]
+
+const vibes = [{}, {}, {}, {}, {}]
+
 const IndexPage = () => {
   return (
     <MainLayout>
       <HeroSection />
+
       <FeaturedProjectsSection />
+
       <PostsSection
         title="Insights & Resources"
         description="I regularly  publish articles and tutorials on design principles, UI UX design tools and industry best practices "
         posts={posts}
       />
+
       <SliderSection
         title='Inspirational vibes'
         description='Ideas and concepts shared across scoial media'
+        posts={vibes}
       />
 
-
-      {/*<h2>H2 I design better digital products to help my clients build better customer experiences.</h2>*/}
-      {/*<h3>H3 I design better digital products to help my clients build better customer experiences.</h3>*/}
-      {/*<h4>Canada’s leading pharmaceutical brand</h4>*/}
-      {/*<h5>Mckesson Canada</h5>*/}
     </MainLayout>
   );
 }

@@ -1,18 +1,21 @@
-.sliderSection {
-
+.SliderSection {
+  padding: 5rem 0;
+  p{
+    font-size: 1.8rem;
+  }
 }
 
 .slides {
-
+  margin-top: 4rem;
 }
 
 .slide {
-  width: 32.5rem;
+  //width: 32.5rem;
+  padding: 0 3rem;
 
   img {
     border-radius: 1.6rem;
-    width: 32.5rem;
-    height: 26rem;
+    width: 100%;
   }
 
   svg {
@@ -30,8 +33,7 @@
 .title {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 36px;
+  margin-top: 3.6rem;
 
   a {
     margin-left: 1.6rem;
