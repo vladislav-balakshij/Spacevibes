@@ -1,13 +1,13 @@
-import React from 'react';
-import { GlobalContext } from '../../layouts/mainLayout';
+import React, { useContext } from 'react';
 
 import * as styles from './styles.module.scss';
 
 import { Logo } from '@images';
 import { IconTwoLines } from '@icons';
+import { GlobalContext } from "../../../states";
 
 const Header = () => {
-  const { state, setState } = React.useContext(GlobalContext);
+  const { state, setState }: any = useContext(GlobalContext);
 
   return (
     <header className={styles.header}>

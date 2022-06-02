@@ -2,9 +2,12 @@ import React from 'react';
 import * as styles from './styles.module.scss'
 import Button from "../../elements/buttons/buttons";
 
-const PostsSection = ({ title, description, posts }: any) => {
+const PostsSection = ({
+                        title,
+                        description,
+                        posts
+                      }: { title: string, description: string, posts: { url: string | undefined; title: string }[] }) => {
   return (
-
     <section className={styles.postsSection}>
       <div className={'wrapper'}>
         <h2>{title}</h2>
@@ -12,10 +15,9 @@ const PostsSection = ({ title, description, posts }: any) => {
       </div>
       <div className={styles.posts}>
         <div className='wrapper'>
-          {posts.map(post => {
+          {posts.map((post) => {
             return <article className={styles.post}>
               <img src="https://via.placeholder.com/400x240/0000FF/808080%20?Text=Digital.com" />
-
               <a href={post.url} target="_blank">{post.title}</a>
             </article>
           })}

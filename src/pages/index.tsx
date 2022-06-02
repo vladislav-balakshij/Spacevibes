@@ -1,11 +1,6 @@
 import React from 'react';
-// @ts-ignore
-import { MainLayout } from '@layouts/mainLayout';
-
-import HeroSection from "../views/sections/hero";
-import FeaturedProjectsSection from "../views/sections/featured";
-import PostsSection from "../views/sections/posts";
-import SliderSection from "../views/sections/slider";
+import { MainLayout } from '@layouts';
+import { HeroSection, FeaturedProjectsSection, PostsSection, SliderSection } from "@sections";
 
 const posts = [
   {
