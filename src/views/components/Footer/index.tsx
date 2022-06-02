@@ -1,6 +1,6 @@
 import React from 'react';
-import IconWhiteArrow from '../../../assets/icons/iconWhiteArrow.svg'
-import * as styles from './footer.module.scss'
+import { IconWhiteArrow } from '@icons'
+import * as styles from './styles.module.scss'
 
 const Footer = () => {
   return (

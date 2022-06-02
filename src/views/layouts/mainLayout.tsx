@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import '../../styles/basic.scss'
-import Header from "../components/Header/header";
-import Footer from "../components/Footer/footer";
-import Menu from "../components/Menu/menu";
+import { Header, Footer, Menu } from "@components";
 
 // @ts-ignore
 const GlobalContext = React.createContext();

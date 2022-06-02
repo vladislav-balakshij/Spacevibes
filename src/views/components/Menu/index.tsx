@@ -1,6 +1,6 @@
 import React from 'react';
 
-import * as styles from './menu.module.scss';
+import * as styles from './styles.module.scss';
 
 import IconClose from '../../../assets/icons/iconClose.svg';
 import IconDribble from '../../../assets/icons/iconDribble.svg';

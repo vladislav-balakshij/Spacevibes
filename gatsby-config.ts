@@ -19,6 +19,8 @@ const config: GatsbyConfig = {
         alias: {
           '@components': 'src/views/components',
           '@layouts': 'src/views/layouts',
+          '@icons': 'src/assets/icons',
+          '@images': 'src/assets/images',
         },
         extensions: [
           'tsx',
