@@ -18,9 +18,12 @@ const config: GatsbyConfig = {
       options: {
         alias: {
           '@components': 'src/views/components',
+          '@sections': 'src/views/sections',
+          '@elements': 'src/views/elements',
           '@layouts': 'src/views/layouts',
           '@icons': 'src/assets/icons',
           '@images': 'src/assets/images',
+          '@state': 'src/states',
         },
         extensions: [
           'tsx',

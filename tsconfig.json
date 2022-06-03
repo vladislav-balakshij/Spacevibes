@@ -37,10 +37,27 @@
     /* Specify how TypeScript looks up a file from a given module specifier. */
     // "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
     "paths": {
-      "@layouts": ["src/views/layouts"],
-      "@components": ["src/views/components"],
-      "@icons": ["src/assets/icons"],
-      "@images": ["src/assets/images"]
+      "@layouts": [
+        "src/views/layouts"
+      ],
+      "@components": [
+        "src/views/components"
+      ],
+      "@sections": [
+        "src/views/sections"
+      ],
+      "@elements": [
+        "src/views/elements"
+      ],
+      "@icons": [
+        "src/assets/icons"
+      ],
+      "@images": [
+        "src/assets/images"
+      ],
+      "@state": [
+        "src/states"
+      ]
     },
     /* Specify a set of entries that re-map imports to additional lookup locations. */
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
@@ -120,6 +137,7 @@
     "./src/**/*",
     "./gatsby-node.ts",
     "./gatsby-config.ts",
-    "./plugins/**/*"
+    "./plugins/**/*",
+    "./custom.d.ts"
   ]
 }
