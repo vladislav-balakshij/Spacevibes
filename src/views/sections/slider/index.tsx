@@ -12,9 +12,9 @@ import "slick-carousel/slick/slick-theme.css";
 const settings = {
   dots: false,
   arrows: false,
-  infinite: true,
+  infinite: false,
   speed: 500,
-  slidesToShow: 3,
+  slidesToShow: 4,
   slidesToScroll: 1,
   centerMode: true,
 };

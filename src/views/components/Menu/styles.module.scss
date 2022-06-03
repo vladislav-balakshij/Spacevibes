@@ -1,24 +1,25 @@
 .overlay {
-  background: #c4c4c43d;
+  background: var(--grey-color);
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 9999;
   width: 100%;
   min-height: 100%;
 }
 
 .menu {
+  background: var(--white-color);
   position: fixed;
-  width: 62rem;
-  height: 100%;
   right: 0;
   top: 0;
-  box-shadow: -5px 0px 22px rgba(0, 0, 0, 0.15);
-  padding: 20px;
-  background: #FFFFFF;
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  box-shadow: -0.5rem 0 2.2rem rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  width: 62rem;
+  height: 100%;
 }
 
 .grid {
@@ -60,9 +61,11 @@
   grid-area: footer;
   font-size: 1.8rem;
   color: #858585;
-  div{
+
+  div {
 
   }
+
   a {
     font-size: 2rem;
     color: #000;

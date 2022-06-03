@@ -1,15 +1,10 @@
 .FeaturedProjectsSection {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 12rem auto 10rem;
-  gap: 0 2rem;
-  grid-template-areas:
-  "header header"
-  "projects images"
-  "footer footer";
+  padding: 8rem 0;
 
-  & > div {
-    width: 100%;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
   }
 
   .title {
@@ -18,12 +13,8 @@
     }
   }
 
-  header {
-    grid-area: header;
-  }
-
-  .projectList {
-    grid-area: projects;
+  .projectsList {
+    max-width: 40rem;
   }
 
   .project {
@@ -37,29 +28,24 @@
     }
 
     p {
-      font-size: 16px;
+      font-size: 1.6rem;
       color: #858585;
     }
   }
 
   .images {
-    grid-area: images;
   }
 
   .imageWrapper {
     position: sticky;
     top: calc(50vh - 39rem);
+    border-radius: 2.4rem;
+    overflow: hidden;
     width: 55rem;
     height: 78rem;
-    overflow: hidden;
-    border-radius: 2.4rem;
   }
 
-  footer {
-    grid-area: footer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  button {
+    margin: 8rem auto 0 auto;
   }
-
 }

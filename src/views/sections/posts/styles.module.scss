@@ -1,9 +1,11 @@
 .postsSection {
+  padding: 8rem 0;
+
   button {
-    margin: 7rem auto 0 auto;
+    margin: 8rem auto 0 auto;
   }
 
-  h2{
+  h2 {
     max-width: 30rem;
   }
 
@@ -16,6 +18,7 @@
 
 .posts {
   margin-top: 4rem;
+
   :global .wrapper {
     display: flex;
     gap: 2.2rem;
