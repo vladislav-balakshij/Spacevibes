@@ -24,6 +24,7 @@ const config: GatsbyConfig = {
           '@icons': 'src/assets/icons',
           '@images': 'src/assets/images',
           '@state': 'src/states',
+          '@styles': 'src/styles',
         },
         extensions: [
           'tsx',

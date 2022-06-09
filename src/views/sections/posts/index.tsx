@@ -13,6 +13,7 @@ const PostsSection = ({
         <h2>{title}</h2>
         <p>{description}</p>
       </div>
+
       <div className={styles.posts}>
         <div className='wrapper'>
           {posts.map((post) => {
@@ -23,6 +24,7 @@ const PostsSection = ({
           })}
         </div>
       </div>
+
       <div className="wrapper">
         <Button>View all resources</Button>
       </div>

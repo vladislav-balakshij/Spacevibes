@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../styles/basic.scss'
 import { Header, Footer, Menu } from "@components";
 import Provider from "@state";
 
