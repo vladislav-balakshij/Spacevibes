@@ -5,14 +5,15 @@ import Button from "../../elements/buttons";
 const PostsSection = ({
                         title,
                         description,
-                        posts
-                      }: { title: string, description: string, posts: { url: string | undefined; title: string }[] }) => {
+                        posts,
+                        link
+                      }: {  title?: string, description?: string, posts: { url: string | undefined; title: string }[],link?: boolean}) => {
   return (
     <section className={styles.postsSection}>
-      <div className={'wrapper'}>
+      {title || description && (<div className={'wrapper'}>
         <h2>{title}</h2>
         <p>{description}</p>
-      </div>
+      </div>)}
 
       <div className={styles.posts}>
         <div className='wrapper'>
@@ -24,10 +25,10 @@ const PostsSection = ({
           })}
         </div>
       </div>
+      {link && <div className="wrapper">
+          <Button>View all resources</Button>
+      </div>}
 
-      <div className="wrapper">
-        <Button>View all resources</Button>
-      </div>
     </section>
 
   );

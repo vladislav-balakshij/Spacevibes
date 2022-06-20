@@ -9,4 +9,14 @@ const WideImageSection = ({ image }: any) => {
   );
 };
 
-export default WideImageSection;
+const ImageSection = ({ image }: any) => {
+  return (
+    <section className={styles.imageSection}>
+      <div className="wrapper">
+        <img src={image} />
+      </div>
+    </section>
+  );
+};
+
+export { WideImageSection, ImageSection };

@@ -1,0 +1,17 @@
+.twoProjects {
+  padding: 8rem 0;
+}
+
+.projectsList {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10rem;
+  & > div{
+    width: 47%;
+  }
+  & > div:nth-child(2) {
+    margin-top: 10rem;
+  }
+}
