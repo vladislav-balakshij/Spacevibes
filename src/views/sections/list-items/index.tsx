@@ -8,7 +8,7 @@ const ListItemsSection = ({ title, items }: { title: string, items: any }) => {
 
       <section className={styles.listItemsSection}>
         <h1>{title}</h1>
-        <div>
+        <div className={styles.list}>
           {items.map(item => (<ListItem {...item} />))}
         </div>
       </section>

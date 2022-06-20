@@ -16,7 +16,7 @@ const settings = {
   speed: 500,
   slidesToShow: 4,
   slidesToScroll: 1,
-  centerMode: true,
+  centerMode: false,
 };
 
 const SliderSection = ({ title, description, posts }: any) => {

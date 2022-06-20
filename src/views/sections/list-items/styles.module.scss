@@ -1,2 +1,10 @@
 .listItemsSection {
+  padding: var(--section-padding);
+}
+
+.list{
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12rem;
 }

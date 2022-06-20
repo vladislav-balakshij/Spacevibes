@@ -1,4 +1,20 @@
 .titleButton {
   text-align: center;
+  padding: var(--section-padding);
+
+  button {
+    margin: 6rem auto 0 auto;
+  }
+}
+
+.theme-1 {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  gap: 3rem;
+
+  button {
+    margin: 0;
+  }
 }
 
