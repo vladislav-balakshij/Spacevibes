@@ -1,0 +1,36 @@
+.fixedContentImages {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.content {
+  position: sticky;
+  top: 0;
+  min-width: 22rem;
+  height: 25.6rem;
+
+  p {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+  }
+}
+
+.images {
+  img {
+    display: block;
+    min-width: 80rem;
+    max-width: 100%;
+    border-radius: 1.6rem;
+    margin-bottom: 6rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

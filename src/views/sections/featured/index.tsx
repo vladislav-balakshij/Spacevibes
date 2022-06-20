@@ -1,6 +1,6 @@
 import React from 'react';
 import * as styles from './styles.module.scss';
-import Button from "../../elements/buttons/buttons";
+import Button from "../../elements/buttons";
 
 const FeaturedProjectsSection = ({ projects }: any) => {
   return (
