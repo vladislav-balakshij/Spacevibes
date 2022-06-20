@@ -1,0 +1,42 @@
+.StoryListSection {
+  padding: 8rem 0;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+  }
+
+  .storyList {
+    max-width: 40rem;
+  }
+
+  .storyPoint {
+    height: 78rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h4 {
+      margin: 2.5rem 0;
+    }
+
+    p {
+      font-size: 1.6rem;
+      color: #858585;
+    }
+  }
+
+  .images {
+  }
+
+  .imageWrapper {
+    position: sticky;
+    top: calc(50vh - 39rem);
+    border-radius: 2.4rem;
+    overflow: hidden;
+    width: 55rem;
+    height: 78rem;
+  }
+
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import * as styles from './styles.module.scss';
-import Button from "../../elements/buttons/buttons";
+import Button from "../../elements/buttons";
 
 const FeaturedProjectsSection = ({ projects }: any) => {
   return (
@@ -14,7 +14,7 @@ const FeaturedProjectsSection = ({ projects }: any) => {
           <section className={styles.projectsList}>
             {projects.map((project: any) => {
               return (<article className={styles.project}>
-                <h5>{project.name}</h5>
+                <h5>{project.name}</h5>giu
                 <h4>{project.title}</h4>
                 <p>{project.keywords}</p>
               </article>)

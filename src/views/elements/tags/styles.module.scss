@@ -1,0 +1,13 @@
+.tags {
+  display: flex;
+  gap: 3.5rem;
+
+  a {
+    color: var(--light-gray-color);
+    font-size: 1.8rem;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

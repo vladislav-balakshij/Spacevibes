@@ -1,0 +1,15 @@
+.titleTextSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  padding: var(--section-padding);
+
+  h4 {
+    min-width: 30%;
+  }
+}
+
+.theme-1 {
+  flex-direction: column;
+  gap: 3.6rem;
+}

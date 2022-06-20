@@ -1,5 +1,6 @@
 import IconTwoLines from './iconTwoLines.svg'
 import IconWhiteArrow from './iconWhiteArrow.svg'
+import IconBlackArrowDown from './iconBlackArrowDown.svg'
 import IconClose from './iconClose.svg';
 import IconDribble from './iconDribble.svg';
 import IconFacebook from './iconFacebook.svg';
@@ -10,6 +11,7 @@ import IconTwitter from './iconTwitter.svg';
 export {
   IconTwoLines,
   IconWhiteArrow,
+  IconBlackArrowDown,
   IconClose,
   IconDribble,
   IconFacebook,

@@ -1,0 +1,20 @@
+.titleImagesGridSection {
+  padding: var(--section-padding);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 12rem 5rem;
+  margin-top: 12rem;
+
+  article {
+    width: calc(100% / 3 - 10rem / 3);
+
+    img {
+      width: 100%;
+      border-radius: 1.6rem;
+    }
+  }
+}
