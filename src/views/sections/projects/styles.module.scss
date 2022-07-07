@@ -4,14 +4,19 @@
 
 .projectsList {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 10rem;
-  & > div{
-    width: 47%;
+  gap: 0 4rem;
+}
+
+.column {
+  width: calc(100% / 2 - 4rem / 2);
+
+  &:nth-child(2) {
+    padding-top: 10rem;
   }
-  & > div:nth-child(2) {
-    margin-top: 10rem;
+
+  & > article {
+    margin-bottom: 5.6rem;
   }
 }

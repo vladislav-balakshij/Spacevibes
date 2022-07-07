@@ -10,10 +10,10 @@
 .title {
   display: flex;
   align-items: center;
-  margin-top: 1.6rem;
 
   h3 {
-    text-decoration: underline;
+    border-bottom: 0.2rem solid var(--black-color);
+    line-height: 1;
   }
 
   button {

@@ -11,8 +11,8 @@ import AnimatedImage from './animated-image';
 import TitleButton from './title-button';
 import ListItems from './list-items';
 import StoryListSection from './story-list';
-import TwoProjectsSection from './two-projects';
 import TitleImagesGridSection from './title-images-grid';
+import FormSection from './form';
 
 export {
   HeroSection,
@@ -29,6 +29,6 @@ export {
   TitleButton,
   ListItems,
   StoryListSection,
-  TwoProjectsSection,
-  TitleImagesGridSection
+  TitleImagesGridSection,
+  FormSection
 }

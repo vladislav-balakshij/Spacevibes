@@ -1,0 +1,15 @@
+.wideImageSection {
+  padding: var(--section-padding);
+
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.imageSection {
+  img {
+    border-radius: 1.6rem;
+    max-width: 100%;
+  }
+}

@@ -5,7 +5,7 @@ import {
   SliderSection,
   TitleButton, TitleImagesGridSection,
   TitleText,
-  TwoProjectsSection,
+  ProjectsSection,
   WideImageSection
 } from "@sections";
 
@@ -28,7 +28,7 @@ const Page = () => {
       <TitleText title='My goal'
                  text='From the moment our company was founded, we have helped our clients find exceptional solutions for their businesses , creating memorable brands and digital products. Our expertise grows with each year, and our accumulated experience empowers us to develop products exactly as they should be.'
       />
-      <TwoProjectsSection />
+      <ProjectsSection />
       <TitleText title='Simply put, we dare what others dont'
                  text=" We make things, and were awesome at it . Cuberto is a tight-knit team of experts who are ready
       to tackle the most intricate puzzles when it comes to websites and mobile apps development. We love what we do and
@@ -46,7 +46,7 @@ to build digital products that people use. ' />
       <TitleText title='Feedback from my clients'
                  text='From the moment our company was founded, we have helped our clients find exceptional solutions for their businesses , creating memorable brands and digital products. Our expertise grows with each year, and our accumulated experience empowers us to develop products exactly as they should be.'
       />
-      <TwoProjectsSection />
+      <ProjectsSection />
       <TitleText title="Get to know me,
 see what's up"
                  text="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."

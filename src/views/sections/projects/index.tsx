@@ -3,17 +3,17 @@ import * as styles from './styles.module.scss'
 import { Filter } from '@elements';
 import { Project } from '@components';
 
-const HeroSection = ({ projects }: { projects?: any }) => {
+const ProjectsSection = ({ projects, filter }: { projects?: any, filter?: boolean }) => {
   return (
     <div className={'wrapper'}>
       <section className={styles.projectsSection}>
-        <Filter />
+        {filter && <Filter />}
         <div className={styles.projectsList}>
-          <div>
+          <div className={styles.column}>
             <Project />
             <Project />
           </div>
-          <div>
+          <div className={styles.column}>
             <Project />
             <Project />
           </div>
@@ -23,4 +23,4 @@ const HeroSection = ({ projects }: { projects?: any }) => {
   );
 };
 
-export default HeroSection;
+export default ProjectsSection;

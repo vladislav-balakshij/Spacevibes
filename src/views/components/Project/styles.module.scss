@@ -1,6 +1,5 @@
 .project {
-  width: 55rem;
-  margin-bottom: 5.6rem;
+  width: 100%;
 
   img {
     border-radius: 2.4rem;
@@ -9,8 +8,10 @@
 }
 
 .title {
-  margin-top: 3.6rem;
+  display: block;
   font-size: 2.2rem;
   color: var(--black-color);
   text-decoration: none;
+  margin-top: 3.6rem;
+  padding: 0 2rem;
 }

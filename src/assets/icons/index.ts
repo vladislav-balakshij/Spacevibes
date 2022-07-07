@@ -7,6 +7,7 @@ import IconFacebook from './iconFacebook.svg';
 import IconInstagram from './iconInstagram.svg';
 import IconLinkedIn from './iconLinkedIn.svg';
 import IconTwitter from './iconTwitter.svg';
+import IconFileAttachment from './iconFileAttachment.svg';
 
 export {
   IconTwoLines,
@@ -17,5 +18,6 @@ export {
   IconFacebook,
   IconInstagram,
   IconLinkedIn,
-  IconTwitter
+  IconTwitter,
+  IconFileAttachment
 };
