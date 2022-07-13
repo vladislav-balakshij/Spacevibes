@@ -7,7 +7,7 @@ const PostsSection = ({
                         description,
                         posts,
                         link
-                      }: {  title?: string, description?: string, posts: { url: string | undefined; title: string }[],link?: string}) => {
+                      }: { title?: string, description?: string, posts: { url: string | undefined; title: string }[], link?: string }) => {
   return (
     <section className={styles.postsSection}>
       {(title || description) && (<div className={'wrapper'}>
@@ -15,8 +15,8 @@ const PostsSection = ({
         <p>{description}</p>
       </div>)}
 
-      <div className={styles.posts}>
-        <div className='wrapper'>
+      <div className='wrapper'>
+        <div className={styles.posts}>
           {posts.map((post) => {
             return <article className={styles.post}>
               <img src="https://via.placeholder.com/400x240/0000FF/808080%20?Text=Digital.com" />

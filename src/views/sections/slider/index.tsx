@@ -17,6 +17,14 @@ const settings = {
   slidesToShow: 4,
   slidesToScroll: 1,
   centerMode: false,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1.5
+      }
+    }
+  ]
 };
 
 const SliderSection = ({ title, description, posts }: any) => {
