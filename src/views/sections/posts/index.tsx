@@ -7,7 +7,7 @@ const PostsSection = ({
                         description,
                         posts,
                         link
-                      }: {  title?: string, description?: string, posts: { url: string | undefined; title: string }[],link?: boolean}) => {
+                      }: {  title?: string, description?: string, posts: { url: string | undefined; title: string }[],link?: string}) => {
   return (
     <section className={styles.postsSection}>
       {(title || description) && (<div className={'wrapper'}>

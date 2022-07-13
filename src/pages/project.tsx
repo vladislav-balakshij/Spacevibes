@@ -10,7 +10,7 @@ import {
 } from "@sections";
 
 
-const ProjectsPage = () => {
+const Page = () => {
   return (
     <MainLayout>
       <LabelTitleSection label='McKesson Canada' title='An enterprise application for McKesson Canada' />
@@ -39,4 +39,4 @@ const ProjectsPage = () => {
   );
 }
 
-export default ProjectsPage;
+export default Page;

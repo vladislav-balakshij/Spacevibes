@@ -5,6 +5,7 @@ import { HeroSection, FeaturedProjectsSection, PostsSection, SliderSection } fro
 const posts = {
   title: 'Insights & Resources',
   description: 'I regularly  publish articles and tutorials on design principles, UI UX design tools and industry best practices',
+  link: '/',
   posts: [{
     id: 1,
     img: 'img',
@@ -54,15 +55,15 @@ const featuredProjects = {
   ]
 }
 
-const IndexPage = () => {
+const Page = () => {
   return (
     <MainLayout>
       <HeroSection />
-      <FeaturedProjectsSection {...featuredProjects} />
+      {/*<FeaturedProjectsSection {...featuredProjects} />*/}
       <PostsSection {...posts} />
       <SliderSection {...slider} />
     </MainLayout>
   );
 }
 
-export default IndexPage;
+export default Page;

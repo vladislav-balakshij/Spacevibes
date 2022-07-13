@@ -11,7 +11,7 @@ import {
 
 const slider = {
   title: 'Inspirational vibes',
-  description: 'Ideas and concepts shared across scoial media',
+  description: 'Ideas and concepts shared across social media',
   posts: [{}, {}, {}, {}, {}]
 }
 

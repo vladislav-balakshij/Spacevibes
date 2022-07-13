@@ -4,7 +4,7 @@ import { ProjectsSection } from "@sections";
 
 const project = [{}, {}, {}, {}];
 
-const ProjectsPage = () => {
+const Page = () => {
   return (
     <MainLayout>
       <ProjectsSection filter={true} projects={project} />
@@ -12,4 +12,4 @@ const ProjectsPage = () => {
   );
 }
 
-export default ProjectsPage;
+export default Page;

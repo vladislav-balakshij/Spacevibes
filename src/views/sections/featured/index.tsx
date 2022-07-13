@@ -4,8 +4,8 @@ import Button from "../../elements/buttons";
 
 const FeaturedProjectsSection = ({ projects }: any) => {
   return (
-    <div className='wrapper'>
-      <div className={styles.FeaturedProjectsSection}>
+    <div className={styles.FeaturedProjectsSection}>
+      <div className='wrapper'>
         <h3 className={styles.title}>
           <div>featured</div>
           projects
@@ -14,7 +14,7 @@ const FeaturedProjectsSection = ({ projects }: any) => {
           <section className={styles.projectsList}>
             {projects.map((project: any) => {
               return (<article className={styles.project}>
-                <h5>{project.name}</h5>giu
+                <h5>{project.name}</h5>
                 <h4>{project.title}</h4>
                 <p>{project.keywords}</p>
               </article>)

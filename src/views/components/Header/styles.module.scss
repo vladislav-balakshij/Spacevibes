@@ -1,4 +1,4 @@
-@use '../../../styles/devices';
+@use '../../../styles/resources/devices';
 
 .header {
   display: flex;
@@ -7,9 +7,9 @@
   padding: 0 5rem;
   height: 15rem;
 
-  //@include devices(desktop) {
-  //
-  //}
+  @include devices(desktop) {
+    color: red;
+  }
 }
 
 .menuButton {

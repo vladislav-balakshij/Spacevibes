@@ -11,6 +11,10 @@
   border-radius: 10rem;
   cursor: pointer;
   padding: 0 4rem;
+  width: 100%;
+  @include devices(desktop) {
+    width: auto;
+  }
 
   svg {
     margin-left: 2.3rem;
