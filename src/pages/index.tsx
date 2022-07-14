@@ -59,7 +59,7 @@ const Page = () => {
   return (
     <MainLayout>
       <HeroSection />
-      {/*<FeaturedProjectsSection {...featuredProjects} />*/}
+      <FeaturedProjectsSection {...featuredProjects} />
       <PostsSection {...posts} />
       <SliderSection {...slider} />
     </MainLayout>
