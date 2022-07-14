@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import * as styles from './styles.module.scss';
 import { IconClose, IconDribble, IconFacebook, IconInstagram, IconLinkedIn, IconTwitter } from '@icons';
 import { GlobalContext } from "../../../states";
+import { Link } from "gatsby";
 
 
 const Menu = () => {
@@ -37,12 +38,24 @@ const Menu = () => {
                 </div>
 
                 <ul className={styles.list}>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Project</a></li>
-                    <li><a href="#">Approach</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Insights</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/projects">Projects</Link>
+                    </li>
+                    <li>
+                        <Link to="/approach">Approach</Link>
+                    </li>
+                    <li>
+                        <Link to="/about">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/insights">Insights</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">Contact</Link>
+                    </li>
                 </ul>
                 <div className={styles.footer}>
                     Book a free consultation call
