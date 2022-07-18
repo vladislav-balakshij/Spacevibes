@@ -1,10 +1,10 @@
 import React from 'react';
 import * as styles from './styles.module.scss';
 
-const FixedContentImages = ({ title, text, reverse }: any) => {
+const FixedContentImagesSection = ({ title, text, reverse }: any) => {
   return (
     <div className='wrapper'>
-      <section className={`${styles.fixedContentImages} ${reverse && styles.reverse}`}>
+      <section className={`${styles.fixedContentImagesSection} ${reverse && styles.reverse}`}>
         <article className={styles.content}>
           <h4>{title}</h4>
           <p>{text}</p>
@@ -19,4 +19,4 @@ const FixedContentImages = ({ title, text, reverse }: any) => {
   );
 };
 
-export default FixedContentImages;
+export default FixedContentImagesSection;

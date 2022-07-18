@@ -1,36 +1,52 @@
 .FeaturedProjectsSection {
-  padding: 8rem 0;
-  background: #F2FDFC;
+  padding: var(--section-padding);
+  //background: #F2FDFC;
 
   .content {
-    display: flex;
-    justify-content: space-between;
+    //display: flex;
+    //justify-content: space-between;
     margin-top: 8rem;
   }
 
   .title {
+    text-align: center;
+
     & > div {
       color: #858585;
     }
   }
 
   .projectsList {
-    max-width: 40rem;
+    //max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6.8rem;
   }
 
   .project {
-    height: 78rem;
+    //height: 78rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 
     h4 {
       margin: 2.5rem 0;
     }
 
+    h5 {
+
+    }
+
     p {
       font-size: 1.6rem;
       color: #858585;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 2.4rem;
+      margin-bottom: 4.5rem;
     }
   }
 
@@ -47,6 +63,6 @@
   }
 
   button {
-    margin: 8rem auto 0 auto;
+    margin: 11rem auto 0 auto;
   }
 }

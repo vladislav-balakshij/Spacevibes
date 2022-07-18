@@ -4,8 +4,8 @@ import * as styles from './styles.module.scss';
 const TitleTextSection = ({ title, text, theme, children }: any) => {
   return (
     <div className='wrapper'>
-      <section className={`${styles.titleTextSection} ${theme == 1 && styles.theme1}`}>
-        {theme == 1 ? <h1>{title}</h1> : <h4>{title}</h4>}
+      <section className={styles.titleTextSection}>
+        <h4>{title}</h4>
         <p>{text}</p>
         {children}
       </section>

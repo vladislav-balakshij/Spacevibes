@@ -6,8 +6,8 @@ import ProjectsSection from "./projects";
 import LabelTitleSection from "./label-title";
 import { ImageSection, WideImageSection } from "./wide-image";
 import TitleText from './title-text';
-import FixedContentImages from './fixed-content-images';
-import AnimatedImage from './animated-image';
+import FixedContentImagesSection from './fixed-content-images';
+import AnimatedImageSection from './animated-image';
 import TitleButton from './title-button';
 import ListItems from './list-items';
 import StoryListSection from './story-list';
@@ -24,8 +24,8 @@ export {
   WideImageSection,
   ImageSection,
   TitleText,
-  FixedContentImages,
-  AnimatedImage,
+  FixedContentImagesSection,
+  AnimatedImageSection,
   TitleButton,
   ListItems,
   StoryListSection,

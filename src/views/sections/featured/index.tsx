@@ -14,19 +14,19 @@ const FeaturedProjectsSection = ({ projects }: any) => {
           <section className={styles.projectsList}>
             {projects.map((project: any) => {
               return (<article className={styles.project}>
+                <img src="https://via.placeholder.com/550x780/0000FF/808080%20?Text=Digital.com" />
                 <h5>{project.name}</h5>
                 <h4>{project.title}</h4>
                 <p>{project.keywords}</p>
               </article>)
             })}
-
           </section>
-          <section className={styles.images}>
-            <div className={styles.imageWrapper}>
-              <img src="https://via.placeholder.com/550x780/0000FF/808080%20?Text=Digital.com" />
-            </div>
+          {/*<section className={styles.images}>*/}
+          {/*  <div className={styles.imageWrapper}>*/}
+          {/*    <img src="https://via.placeholder.com/550x780/0000FF/808080%20?Text=Digital.com" />*/}
+          {/*  </div>*/}
 
-          </section>
+          {/*</section>*/}
         </div>
         <Button>View all projects</Button>
       </div>

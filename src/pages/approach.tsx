@@ -29,10 +29,18 @@ const listItems: listItem[] = [
 const Page = () => {
   return (
     <MainLayout>
-      <TitleText title='Simple rules for building products that customers love.' text='Building good products isn’t magic: it’s all about listening to your customers, working iteratively, and testing constantly. Short cycles and regular feedback keeps our minds open to changing directions and experimenting every step of the way.
-
-The right product is the one created with your and your customers’ goal in mind; we’re here as the experienced team that has the tools and processes necessary to do the work and get results.
-' theme={1} />
+      <div className="wrapper">
+        <h1>Simple rules for building products that customers love.</h1>
+        <p>
+          Building good products isn’t magic: it’s all about listening to your customers, working iteratively, and
+          testing constantly. Short cycles and regular feedback keeps our minds open to changing directions and
+          experimenting every step of the way.
+        </p>
+        <p>
+          The right product is the one created with your and your customers’ goal in mind; we’re here as the experienced
+          team that has the tools and processes necessary to do the work and get results.
+        </p>
+      </div>
       <WideImageSection image='https://via.placeholder.com/1920x900/0000FF/808080%20?Text=Digital.com' />
       <ListItems title='Three basic rules when building better products.' items={listItems} />
       <StoryListSection storyList={[

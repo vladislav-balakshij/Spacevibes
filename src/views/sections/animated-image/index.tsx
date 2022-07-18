@@ -1,10 +1,10 @@
 import React from 'react';
 import * as styles from './styles.module.scss';
 
-const AnimatedImage = ({ title, background, gif }: any) => {
+const AnimatedImageSection = ({ title, background, gif }: any) => {
     return (
       <div className='wrapper'>
-        <section className={styles.animatedImage}>
+        <section className={styles.animatedImageSection}>
           <h1>Any mechanical keyboard enthusiasts in design.</h1>
           <div style={{ backgroundImage: `url(${background})` }} className={styles.background}><img src={gif} alt="" />
           </div>
@@ -14,4 +14,4 @@ const AnimatedImage = ({ title, background, gif }: any) => {
   }
 ;
 
-export default AnimatedImage;
+export default AnimatedImageSection;
