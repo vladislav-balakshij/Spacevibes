@@ -21,12 +21,11 @@ const FeaturedProjectsSection = ({ projects }: any) => {
               </article>)
             })}
           </section>
-          {/*<section className={styles.images}>*/}
-          {/*  <div className={styles.imageWrapper}>*/}
-          {/*    <img src="https://via.placeholder.com/550x780/0000FF/808080%20?Text=Digital.com" />*/}
-          {/*  </div>*/}
-
-          {/*</section>*/}
+          <section className={styles.imageWrapper}>
+            <div className={styles.images}>
+              <img src="https://via.placeholder.com/550x780/0000FF/808080%20?Text=Digital.com" />
+            </div>
+          </section>
         </div>
         <Button>View all projects</Button>
       </div>

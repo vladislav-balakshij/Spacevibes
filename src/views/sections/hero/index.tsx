@@ -5,8 +5,8 @@ import { Overline } from "@elements";
 
 const HeroSection = () => {
   return (
-    <div className={'wrapper'}>
-      <section className={styles.heroSection}>
+    <section className={styles.heroSection}>
+      <div className={'wrapper'}>
         <h1>I design better digital products to help my clients build better customer experiences.</h1>
         <Button>My approach</Button>
         <footer className={styles.footer}>
@@ -16,8 +16,8 @@ const HeroSection = () => {
             custom digital products, websites and apps.
           </p>
         </footer>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

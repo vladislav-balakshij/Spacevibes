@@ -1,6 +1,17 @@
 .heroSection {
   padding: var(--section-padding);
-  display: flex;
-  flex-direction: column;
-  gap: 4rem 0;
+
+  :global .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  @include devices(desktop) {
+    :global .wrapper {
+      max-width: 100rem;
+    }
+  }
 }

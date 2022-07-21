@@ -21,6 +21,9 @@ h3 {
   margin: 1.5rem 0;
   //font-size: 4.8rem;
   font-weight: 400;
+  @include devices(desktop) {
+    font-size: 4.8rem;
+  }
 }
 
 h4 {

@@ -7,9 +7,12 @@
     gap: 4rem 0;
   }
 
-  //background: #F2FDFC;
-
-  .content {
+  @include devices(desktop) {
+    //TODO: Replace color to var
+    background: #F2FDFC;
+    button {
+      margin: 0 auto;
+    }
   }
 
   .title {
@@ -18,21 +21,40 @@
     & > div {
       color: #858585;
     }
+
+    @include devices(desktop) {
+      text-align: left;
+    }
+
   }
 
+  .content {
+    position: relative;
+    @include devices(desktop) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+
   .projectsList {
-    //max-width: 40rem;
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    @include devices(desktop) {
+      width: 40rem;
+    }
   }
 
   .project {
-    //height: 78rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    @include devices(desktop) {
+      height: 78rem;
+    }
+
     p {
       font-size: 1.6rem;
       //TODO: switch color to var
@@ -43,13 +65,21 @@
       width: 100%;
       border-radius: 2.4rem;
       margin-bottom: 4rem;
+      @include devices(desktop) {
+        display: none;
+      }
+    }
+  }
+
+  .imageWrapper {
+    display: none;
+    @include devices(desktop) {
+      display: block;
+      width: 50%;
     }
   }
 
   .images {
-  }
-
-  .imageWrapper {
     position: sticky;
     top: calc(50vh - 39rem);
     border-radius: 2.4rem;
@@ -57,4 +87,5 @@
     width: 55rem;
     height: 78rem;
   }
+
 }
