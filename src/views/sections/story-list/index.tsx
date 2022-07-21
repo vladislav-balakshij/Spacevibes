@@ -12,14 +12,15 @@ const StoryListSection = ({ storyList }: any) => {
               return (<article className={styles.storyPoint}>
                 <h4>{storyPoint.title}</h4>
                 <p>{storyPoint.text}</p>
+                <img src="https://via.placeholder.com/550x780/0000FF/808080%20?Text=Digital.com" />
               </article>)
             })}
           </section>
-          <section className={styles.images}>
-            <div className={styles.imageWrapper}>
-              <img src="https://via.placeholder.com/550x780/0000FF/808080%20?Text=Digital.com" />
-            </div>
-          </section>
+          {/*<section className={styles.images}>*/}
+          {/*  <div className={styles.imageWrapper}>*/}
+          {/*    <img src="https://via.placeholder.com/550x780/0000FF/808080%20?Text=Digital.com" />*/}
+          {/*  </div>*/}
+          {/*</section>*/}
         </div>
       </div>
     </div>

@@ -8,5 +8,8 @@
   //Fonts
   --font-family: 'Proxima Nova';
   //Global
-  --section-padding: 6rem 0;
+  --section-padding: 4rem 0;
+  @include devices(desktop) {
+    --section-padding: 8rem 0;
+  }
 }

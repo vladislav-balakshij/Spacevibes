@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   height: 6.7rem;
+  //TODO: rewrite to var
   border: 1px solid #858585;
   background: #fff;
   font-weight: 600;
@@ -11,6 +12,7 @@
   border-radius: 10rem;
   cursor: pointer;
   padding: 0 4rem;
+  margin: 1.5rem 0;
   width: 100%;
 
   @include devices(desktop) {

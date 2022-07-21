@@ -8,6 +8,7 @@ import {
   ProjectsSection,
   WideImageSection
 } from "@sections";
+import { Button } from "@elements";
 
 const slider = {
   title: 'Inspirational vibes',
@@ -18,11 +19,16 @@ const slider = {
 const Page = () => {
   return (
     <MainLayout>
-      <TitleText title='I build custom digital products for companies like Deloitte, Health Ontario, and TD Trust.'
-                 text='Clients come to us when they have a great idea, but need a team of seasoned experts to help them bring it to life. Over the years, we’ve worked with clients like Buzzfeed, General Electric, and Hermès to concept and build everything from websites and apps to interactive event installations. Whether you’re a new startup or a Fortune 500 company, our team of designers, developers, and product experts will treat you with the same level of respect and care that we’ve given all of our clients since 2013.'
-                 theme={1} />
-
-      <TitleButton title='Have an idea?' theme={1} />
+      <div className="wrapper">
+        <h1>I build custom digital products for companies like Deloitte, Health Ontario, and TD Trust.</h1>
+        <p>Clients come to us when they have a great idea, but need a team of seasoned experts to help them bring it to
+          life. Over the years, we’ve worked with clients like Buzzfeed, General Electric, and Hermès to concept and
+          build everything from websites and apps to interactive event installations. Whether you’re a new startup or a
+          Fortune 500 company, our team of designers, developers, and product experts will treat you with the same level
+          of respect and care that we’ve given all of our clients since 2013.</p>
+        <h4>Have an idea?</h4>
+        <Button>Tell us about it</Button>
+      </div>
 
       <WideImageSection image='https://via.placeholder.com/1920x900/0000FF/808080%20?Text=Digital.com' />
       <TitleText title='My goal'

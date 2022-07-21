@@ -1,20 +1,6 @@
 .heroSection {
-  padding: 8rem 0;
-
-  button {
-    margin-top: 5.5rem;
-  }
-
-  :global .overline {
-    margin-top: 8rem;
-  }
-
-  .footer {
-    margin-top: 6.5rem;
-    //margin-top: 15.6rem;
-
-    p {
-      margin-top: 1rem;
-    }
-  }
+  padding: var(--section-padding);
+  display: flex;
+  flex-direction: column;
+  gap: 4rem 0;
 }
