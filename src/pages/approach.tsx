@@ -1,6 +1,6 @@
 import React from 'react';
 import { MainLayout } from '@layouts';
-import { ListItems, StoryListSection, TitleText, WideImageSection } from "@sections";
+import { FixedContentImagesSection, ListItems, StoryListSection, TitleText, WideImageSection } from "@sections";
 
 interface listItem {
   title: string;
@@ -43,24 +43,8 @@ const Page = () => {
       </div>
       <WideImageSection image='https://via.placeholder.com/1920x900/0000FF/808080%20?Text=Digital.com' />
       <ListItems title='Three basic rules when building better products.' items={listItems} />
-      <StoryListSection storyList={[
-        {
-          title: 'Discovery & Research',
-          text: 'Every great product starts with a clear strategy that is customer and market-driven, but to get there, you have to get clarity on what you’re building, who you’re building it for, and the goals you’d like to achieve. This is why we always begin with a Discovery phase, which helps executives, stakeholders, and our team get clear on the product direction, target audience, and business objectives.'
-        },
-        {
-          title: 'Discovery & Research',
-          text: 'Every great product starts with a clear strategy that is customer and market-driven, but to get there, you have to get clarity on what you’re building, who you’re building it for, and the goals you’d like to achieve. This is why we always begin with a Discovery phase, which helps executives, stakeholders, and our team get clear on the product direction, target audience, and business objectives.'
-        },
-        {
-          title: 'Discovery & Research',
-          text: 'Every great product starts with a clear strategy that is customer and market-driven, but to get there, you have to get clarity on what you’re building, who you’re building it for, and the goals you’d like to achieve. This is why we always begin with a Discovery phase, which helps executives, stakeholders, and our team get clear on the product direction, target audience, and business objectives.'
-        },
-        {
-          title: 'Discovery & Research',
-          text: 'Every great product starts with a clear strategy that is customer and market-driven, but to get there, you have to get clarity on what you’re building, who you’re building it for, and the goals you’d like to achieve. This is why we always begin with a Discovery phase, which helps executives, stakeholders, and our team get clear on the product direction, target audience, and business objectives.'
-        }
-      ]} />
+      <FixedContentImagesSection title='Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.'
+                                 text='Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum' />
     </MainLayout>
   );
 }

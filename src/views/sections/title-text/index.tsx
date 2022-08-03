@@ -13,8 +13,8 @@ const TitleTextSection = ({ title, text, theme, children }: any) => {
   return (
     <div className='wrapper'>
       <section className={genClassName()}>
-        <h4>{title}</h4>
-        <p>{text}</p>
+        {title && <h4>{title}</h4>}
+        {text && <p>{text}</p>}
         {children}
       </section>
     </div>

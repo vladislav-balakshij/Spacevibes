@@ -35,17 +35,17 @@ const Page = () => {
                  text='From the moment our company was founded, we have helped our clients find exceptional solutions for their businesses , creating memorable brands and digital products. Our expertise grows with each year, and our accumulated experience empowers us to develop products exactly as they should be.'
       />
       <ProjectsSection />
-      <TitleText title='Simply put, we dare what others dont'
-                 text=" We make things, and were awesome at it . Cuberto is a tight-knit team of experts who are ready
-      to tackle the most intricate puzzles when it comes to websites and mobile apps development. We love what we do and
-      we bet on the success of each and every project we undertake.
-
-      Mainstream? No, thanks. Because it s not just work, it s passion . It's not just clients, it's people. Every
-      project we take on is important to us, and every client is a big deal. We take care of your projects, your
-      deadlines, and your nerves no matter what, and that’s a promise.
-      "
-                 theme={1}
-      />
+      <TitleText>
+        <h1>Simply put, we dare what others don't</h1>
+        <p>We make things, and we're awesome at it . Cuberto is a tight-knit team of experts who are ready to tackle the
+          most intricate puzzles when it comes to websites and mobile apps development. We love what we do and we bet on
+          the success of each and every project we undertake.</p>
+        <p>Mainstream? No, thanks. Because it's not just work, it's
+          passion . It's not just clients, it's people. Every project we take on is important to us, and every client is
+          a
+          big deal. We take care of your projects, your deadlines, and your nerves no matter what, and that’s a promise.
+        </p>
+      </TitleText>
       <ImageSection image='https://via.placeholder.com/1920x900/0000FF/808080%20?Text=Digital.com' />
       <TitleImagesGridSection title='I work with companies
 to build digital products that people use. ' />
