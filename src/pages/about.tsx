@@ -20,19 +20,28 @@ const Page = () => {
   return (
     <MainLayout>
       <div className="wrapper">
-        <h1>I build custom digital products for companies like Deloitte, Health Ontario, and TD Trust.</h1>
-        <p>Clients come to us when they have a great idea, but need a team of seasoned experts to help them bring it to
-          life. Over the years, we’ve worked with clients like Buzzfeed, General Electric, and Hermès to concept and
-          build everything from websites and apps to interactive event installations. Whether you’re a new startup or a
-          Fortune 500 company, our team of designers, developers, and product experts will treat you with the same level
-          of respect and care that we’ve given all of our clients since 2013.</p>
-        <h4>Have an idea?</h4>
-        <Button>Tell us about it</Button>
+        <TitleText>
+          <h1>I build custom digital products for companies like Deloitte, Health Ontario, and TD Trust.</h1>
+          <p>Clients come to us when they have a great idea, but need a team of seasoned experts to help them bring it
+            to
+            life. Over the years, we’ve worked with clients like Buzzfeed, General Electric, and Hermès to concept and
+            build everything from websites and apps to interactive event installations. Whether you’re a new startup or
+            a
+            Fortune 500 company, our team of designers, developers, and product experts will treat you with the same
+            level
+            of respect and care that we’ve given all of our clients since 2013.</p>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', maxWidth: '40rem' }}>
+            <h4>Have an idea?</h4>
+            <Button>Tell us about it</Button></div>
+        </TitleText>
+
       </div>
 
       <WideImageSection image='https://via.placeholder.com/1920x900/0000FF/808080%20?Text=Digital.com' />
-      <TitleText title='My goal'
-                 text='From the moment our company was founded, we have helped our clients find exceptional solutions for their businesses , creating memorable brands and digital products. Our expertise grows with each year, and our accumulated experience empowers us to develop products exactly as they should be.'
+      <TitleText
+        theme={2}
+        title='My goal'
+        text='From the moment our company was founded, we have helped our clients find exceptional solutions for their businesses , creating memorable brands and digital products. Our expertise grows with each year, and our accumulated experience empowers us to develop products exactly as they should be.'
       />
       <ProjectsSection />
       <TitleText>
