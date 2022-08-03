@@ -3,7 +3,6 @@ import { MainLayout } from '@layouts';
 import { ListItems, PostsSection, StoryListSection, TitleText, WideImageSection } from "@sections";
 
 const posts = {
-  title: 'Insights on technology and digital product design',
   posts: [{
     id: 1,
     img: 'img',
@@ -63,6 +62,9 @@ const posts = {
 const Page = () => {
   return (
     <MainLayout>
+      <TitleText>
+        <h1>Insights on technology and digital product design</h1>
+      </TitleText>
       <PostsSection {...posts} />
     </MainLayout>
   );

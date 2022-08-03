@@ -30,7 +30,7 @@ const Page = () => {
             Fortune 500 company, our team of designers, developers, and product experts will treat you with the same
             level
             of respect and care that we’ve given all of our clients since 2013.</p>
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', maxWidth: '40rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', maxWidth: '50rem' }}>
             <h4>Have an idea?</h4>
             <Button>Tell us about it</Button></div>
         </TitleText>

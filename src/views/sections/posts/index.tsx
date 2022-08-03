@@ -10,11 +10,6 @@ const PostsSection = ({
                       }: { title?: string, description?: string, posts: { url: string | undefined; title: string }[], link?: string }) => {
   return (
     <section className={styles.postsSection}>
-      {(title || description) && (<div className={'wrapper'}>
-        <h2>{title}</h2>
-        <p>{description}</p>
-      </div>)}
-
       <div className='wrapper'>
         <div className={styles.posts}>
           {posts.map((post) => {
