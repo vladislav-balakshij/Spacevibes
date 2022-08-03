@@ -1,38 +1,49 @@
 .fixedContentImagesSection {
-  display: flex;
-  flex-direction: column;
   position: relative;
-  justify-content: space-between;
-  gap: 5rem;
   padding: var(--section-padding);
-}
-
-.reverse {
-  //flex-direction: row-reverse;
-}
-
-.content {
-  //position: sticky;
-  top: 0;
-  min-width: 22rem;
-
-  p {
-    margin-top: 2rem;
-    font-size: 1.8rem;
+  &.reverse {
+    div {
+      @include devices(desktop) {
+        flex-direction: row-reverse;
+      }
+    }
   }
-}
 
-.images {
-  display: flex;
-  flex-direction: column;
-  gap: 2.6rem 0;
-  img {
-    display: block;
-    max-width: 100%;
-    border-radius: 1.6rem;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+    @include devices(desktop) {
+      flex-direction: row;
+    }
+    .content {
+      @include devices(desktop) {
+        max-width: 22rem;
+        height: 15rem;
+        position: sticky;
+      }
+      top: 0;
+      p {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+      }
+    }
 
-    &:last-child {
-      margin-bottom: 0;
+    .images {
+      display: flex;
+      flex-direction: column;
+      gap: 2.6rem 0;
+
+      img {
+        display: block;
+        max-width: 100%;
+        border-radius: 1.6rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
     }
   }
 }
