@@ -23,6 +23,11 @@ const Input = ({ type, placeholder }: any) => {
         }
         } />
       </div>
+    case 'checkbox' :
+      return <div className={styles.selector}>
+        <label htmlFor={id}>{placeholder}</label>
+        <input id={id} name="selectors[]" value={placeholder} type="hidden" />
+      </div>
     default :
       return <input className={styles.input} type="text" placeholder={placeholder} />
   }
